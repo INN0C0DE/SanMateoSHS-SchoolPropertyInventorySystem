@@ -1,0 +1,214 @@
+[Root]
+Most Recent Package=SMSHS - SPIS Setup Package
+
+
+[Package|TechnoVation Corp.|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Raphael\Desktop\sample folder
+
+[Package|TechnoVation Corp.|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TechnoVation Corp.|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TechnoVation Corp.|Files Found]
+
+[Package|TechnoVation Corp.|Files Released]
+
+[Package|TechnoVation Corp.|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=
+
+[Package|TechnoVation Corp.|Out-of-Date Dependency Information]
+
+[Package|TechnoVation Corp.|Files Added]
+
+[Package|TechnoVation Corp.|Files Removed]
+
+[Package|TechnoVation Corp.|Files In Project]
+C:\Users\Raphael\Desktop\SMSHS - SPIS (MOD)\San Mateo SHS - School Property Inventory System.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|TechnoVation Corp.|Configure Registry Files]
+Applicable=No
+
+[Package|TechnoVation Corp.|Configure Remote Servers]
+Applicable=No
+
+[Package|TechnoVation Corp.|Install Locations]
+C:\Users\Raphael\Desktop\SMSHS - SPIS (MOD)\San Mateo SHS - School Property Inventory System.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|TechnoVation Corp.|Configure Shared Files]
+Applicable=Yes
+C:\Users\Raphael\Desktop\SMSHS - SPIS (MOD)\San Mateo SHS - School Property Inventory System.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|TechnoVation Corp.|Distribution]
+Type=single
+Size=
+Title=SMSHS SetUp
+
+[Package|TechnoVation Corp.|IconGroups]
+Group0=SMSHS SetUp
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|TechnoVation Corp.|SMSHS SetUp]
+Icon1="San Mateo SHS - School Property Inventory System.EXE"
+Title1=SMSHS SetUp
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|TechnoVation Corp.|Package]
+PackageFolder=C:\Users\Raphael\Desktop\sample folder
+ProjectFolder=C:\Users\Raphael\Desktop\SMSHS - SPIS (MOD)
+ServerSideCab=
+File1=C:\Users\Raphael\Desktop\sample folder\setup.exe
+File2=C:\Users\Raphael\Desktop\sample folder\Setup.Lst
+File3=C:\Users\Raphael\Desktop\sample folder\San Mateo SHS - School Property Inventory System.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SMSHS - SPIS Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Raphael\Documents\GTA San Andreas User Files
+
+[Package|SMSHS - SPIS Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SMSHS - SPIS Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SMSHS - SPIS Setup Package|Files Found]
+
+[Package|SMSHS - SPIS Setup Package|Files Released]
+
+[Package|SMSHS - SPIS Setup Package|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=
+
+[Package|SMSHS - SPIS Setup Package|Out-of-Date Dependency Information]
+
+[Package|SMSHS - SPIS Setup Package|Files Added]
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\Database\SMSHS - SPIS.mdb=
+
+[Package|SMSHS - SPIS Setup Package|Files Removed]
+
+[Package|SMSHS - SPIS Setup Package|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\SMSHS - SPIS (Application).exe=Yes
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\Database\SMSHS - SPIS.mdb=Yes
+
+[Package|SMSHS - SPIS Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|SMSHS - SPIS Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|SMSHS - SPIS Setup Package|Install Locations]
+C:\SMSHS - SPIS (Build 2.0)\SMSHS - SPIS (Application).exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\SMSHS - SPIS (Application).exe=$(AppPath)
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\Database\SMSHS - SPIS.mdb=$(AppPath)
+
+[Package|SMSHS - SPIS Setup Package|Configure Shared Files]
+Applicable=Yes
+C:\SMSHS - SPIS (Build 2.0)\SMSHS - SPIS (Application).exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\SMSHS - SPIS (Application).exe=No
+C:\RASC FILES\SMSHS - SPIS (Build 2.0)\Database\SMSHS - SPIS.mdb=No
+
+[Package|SMSHS - SPIS Setup Package|Distribution]
+Type=single
+Size=
+Title=SMSHS - SPIS Setup Installer
+
+[Package|SMSHS - SPIS Setup Package|IconGroups]
+Group0=SMSHS - SPIS Setup Installer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SMSHS - SPIS Setup Package|SMSHS - SPIS Setup Installer]
+Icon1="SMSHS - SPIS (Application).exe"
+Title1=SMSHS - SPIS Setup Installer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SMSHS - SPIS Setup Package|Package]
+PackageFolder=C:\Users\Raphael\Documents\GTA San Andreas User Files
+ProjectFolder=C:\RASC FILES\SMSHS - SPIS (Build 2.0)
+ServerSideCab=
+File1=C:\Users\Raphael\Documents\GTA San Andreas User Files\setup.exe
+File2=C:\Users\Raphael\Documents\GTA San Andreas User Files\Setup.Lst
+File3=C:\Users\Raphael\Documents\GTA San Andreas User Files\SMSHS - SPIS (Application).CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

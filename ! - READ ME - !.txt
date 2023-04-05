@@ -1,0 +1,16 @@
+From INN0C0DE,
+		Thank you for Installing SMSHS-SPIS 2.0!
+
+
+Installation Password: INN0C0DE
+
+***Default Accout USERNAME and PASSWORD)***
+
+username: admin
+password: admin
+
+NOTE: You can add, change or remove username and pass directly to the database (C:\SMSHS - SPIS (Build 2.0)\Databse\)
+
+We will do our best to make this more functional, Thankyou for Installing! 
+
+Developer: Raphael Arnaldo Cruz [INN0C0DE]
